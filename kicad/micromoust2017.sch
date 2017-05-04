@@ -1,0 +1,159 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:lpc
+LIBS:micromoust2017-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Micromouse2017"
+Date ""
+Rev ""
+Comp "Designed by Wataru Shito"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P?
+U 1 1 5904A1B1
+P 1050 1300
+F 0 "P?" H 1050 1450 50  0000 C CNN
+F 1 "B2B-XH" V 1150 1300 50  0000 C CNN
+F 2 "" H 1050 1300 50  0000 C CNN
+F 3 "" H 1050 1300 50  0000 C CNN
+	1    1050 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LM1084IT-3.3/NOPB U?
+U 1 1 5904A46B
+P 2450 1100
+F 0 "U?" H 2650 900 50  0000 C CNN
+F 1 "TA48M033F" H 2150 1300 50  0000 L CNN
+F 2 "TO-220" H 2450 1200 50  0000 C CIN
+F 3 "" H 2450 1100 50  0000 C CNN
+	1    2450 1100
+	1    0    0    -1  
+$EndComp
+Text Notes 600  1100 0    60   ~ 0
+Battery +11V
+$Comp
+L C_Small C?
+U 1 1 5904A7F7
+P 1850 1200
+F 0 "C?" H 1860 1270 50  0000 L CNN
+F 1 "0.1u" H 1860 1120 50  0000 L CNN
+F 2 "" H 1850 1200 50  0000 C CNN
+F 3 "" H 1850 1200 50  0000 C CNN
+	1    1850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5904ACD2
+P 1550 2350
+F 0 "C?" H 1560 2420 50  0000 L CNN
+F 1 "C_Small" H 1560 2270 50  0000 L CNN
+F 2 "" H 1550 2350 50  0000 C CNN
+F 3 "" H 1550 2350 50  0000 C CNN
+	1    1550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 5904AD1E
+P 2950 1250
+F 0 "C?" H 2960 1320 50  0000 L CNN
+F 1 "47u" H 2960 1170 50  0000 L CNN
+F 2 "" H 2950 1250 50  0000 C CNN
+F 3 "" H 2950 1250 50  0000 C CNN
+	1    2950 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 5904AD53
+P 900 2350
+F 0 "C?" H 910 2420 50  0000 L CNN
+F 1 "CP1_Small" H 910 2270 50  0000 L CNN
+F 2 "" H 900 2350 50  0000 C CNN
+F 3 "" H 900 2350 50  0000 C CNN
+	1    900  2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5904ADC8
+P 2950 1450
+F 0 "#PWR?" H 2950 1200 50  0001 C CNN
+F 1 "GND" H 2950 1300 50  0000 C CNN
+F 2 "" H 2950 1450 50  0000 C CNN
+F 3 "" H 2950 1450 50  0000 C CNN
+	1    2950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5904ADEE
+P 2450 1450
+F 0 "#PWR?" H 2450 1200 50  0001 C CNN
+F 1 "GND" H 2450 1300 50  0000 C CNN
+F 2 "" H 2450 1450 50  0000 C CNN
+F 3 "" H 2450 1450 50  0000 C CNN
+	1    2450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5904AE14
+P 1850 1400
+F 0 "#PWR?" H 1850 1150 50  0001 C CNN
+F 1 "GND" H 1850 1250 50  0000 C CNN
+F 2 "" H 1850 1400 50  0000 C CNN
+F 3 "" H 1850 1400 50  0000 C CNN
+	1    1850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5904AE3A
+P 1250 1450
+F 0 "#PWR?" H 1250 1200 50  0001 C CNN
+F 1 "GND" H 1250 1300 50  0000 C CNN
+F 2 "" H 1250 1450 50  0000 C CNN
+F 3 "" H 1250 1450 50  0000 C CNN
+	1    1250 1450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
