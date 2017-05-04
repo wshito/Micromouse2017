@@ -1,1 +1,10 @@
 *.FCStd1
+kicad/*.000
+kicad/*.bak
+kicad/*.bck
+kicad/*.lst
+kicad/*.net
+kicad/*.mdc
+kicad/*.dsn
+kicad/*.ses
+
