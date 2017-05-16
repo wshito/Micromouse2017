@@ -1,4 +1,4 @@
-update=Monday, 15 May 2017 'amt' 08:48:25
+update=Tuesday, 16 May 2017 'pmt' 23:04:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -39,7 +39,7 @@ LabSize=60
 version=1
 LibDir=/Users/shito/Documents/git-repositories/kicad-libs
 [eeschema/libraries]
-LibName1=a3982slb_board-rescue
+LibName1=wshito
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -70,4 +70,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=motor_driver
-LibName32=wshito
