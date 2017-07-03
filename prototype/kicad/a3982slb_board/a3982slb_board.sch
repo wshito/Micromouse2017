@@ -88,6 +88,8 @@ F 0 "RV1" V 9125 4650 50  0000 C CNN
 F 1 "10K" V 9200 4650 50  0000 C CNN
 F 2 "wshito_FootPrints:G43A" H 9300 4650 50  0001 C CNN
 F 3 "" H 9300 4650 50  0000 C CNN
+F 4 "G43ATB103" V 9300 4650 60  0001 C CNN "Model"
+F 5 "http://akizukidenshi.com/catalog/g/gP-10785/" V 9300 4650 60  0001 C CNN "Available at"
 	1    9300 4650
 	-1   0    0    -1  
 $EndComp
@@ -135,6 +137,8 @@ F 1 "0.33" V 4300 4050 50  0000 C CNN
 F 2 "Resistors_SMD:R_2512_HandSoldering" V 4230 4050 50  0001 C CNN
 F 3 "" V 4380 4050 50  0000 C CNN
 F 4 "2W" V 4220 4050 50  0000 C CNN "Power"
+F 5 "Panasonic ERJ1TRQFR33U (using 1W due to the availability)" V 4300 4050 60  0001 C CNN "Model"
+F 6 "http://jp.rs-online.com/web/p/products/7216230/" V 4300 4050 60  0001 C CNN "Available at"
 	1    4300 4050
 	0    1    1    0   
 $EndComp
@@ -147,6 +151,8 @@ F 1 "0.33" V 7950 4150 50  0000 C CNN
 F 2 "Resistors_SMD:R_2512_HandSoldering" V 7880 4150 50  0001 C CNN
 F 3 "" V 8030 4150 50  0000 C CNN
 F 4 "2W" V 7870 4150 50  0000 C CNN "Power"
+F 5 "Panasonic ERJ1TRQFR33U (using 1W due to the availability)" V 7950 4150 60  0001 C CNN "Model"
+F 6 "http://jp.rs-online.com/web/p/products/7216230/" V 7950 4150 60  0001 C CNN "Available at"
 	1    7950 4150
 	0    1    1    0   
 $EndComp
@@ -159,6 +165,8 @@ F 1 "2.4K" V 9300 5400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9230 5400 50  0001 C CNN
 F 3 "" V 9380 5400 50  0000 C CNN
 F 4 "1/8W" V 9220 5400 50  0000 C CNN "Power"
+F 5 "Panasonic ERJPA3F2401V" V 9300 5400 60  0001 C CNN "Model"
+F 6 "http://jp.rs-online.com/web/p/products/8626855/" V 9300 5400 60  0001 C CNN "Available at"
 	1    9300 5400
 	1    0    0    -1  
 $EndComp
@@ -171,6 +179,8 @@ F 1 "0.1u" H 5510 4570 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5500 4650 50  0001 C CNN
 F 3 "" H 5500 4650 50  0000 C CNN
 F 4 "50V" H 5480 4570 50  0000 R CNN "Voltage"
+F 5 "GRM188F11H104ZA01" H 5500 4650 60  0001 C CNN "Model"
+F 6 "http://akizukidenshi.com/catalog/g/gP-04940/" H 5500 4650 60  0001 C CNN "Available at"
 	1    5500 4650
 	0    1    1    0   
 $EndComp
@@ -191,6 +201,8 @@ F 1 "25K" V 7950 4750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7880 4750 50  0001 C CNN
 F 3 "" V 8030 4750 50  0000 C CNN
 F 4 "1/10W" V 7870 4750 50  0000 C CNN "Power"
+F 5 "Panasonic ERJPA3F3002V (30KΩ)" V 7950 4750 60  0001 C CNN "Model"
+F 6 "http://jp.rs-online.com/web/p/products/8626896/" V 7950 4750 60  0001 C CNN "Available at"
 	1    7950 4750
 	-1   0    0    1   
 $EndComp
@@ -216,6 +228,8 @@ F 1 "0.22u" H 7610 5520 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7600 5600 50  0001 C CNN
 F 3 "" H 7600 5600 50  0000 C CNN
 F 4 "10V" H 7580 5520 50  0000 R CNN "Voltage"
+F 5 "GRM188F11H224ZA01" H 7600 5600 60  0001 C CNN "Model"
+F 6 "http://akizukidenshi.com/catalog/g/gP-05624/" H 7600 5600 60  0001 C CNN "Available at"
 	1    7600 5600
 	0    1    1    0   
 $EndComp
@@ -228,6 +242,8 @@ F 1 "10u" H 7610 5220 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7600 5300 50  0001 C CNN
 F 3 "" H 7600 5300 50  0000 C CNN
 F 4 "10V" H 7590 5220 50  0000 R CNN "Voltage"
+F 5 "GRM188R61E106MA" H 7600 5300 60  0001 C CNN "Model"
+F 6 "http://akizukidenshi.com/catalog/g/gP-07768/" H 7600 5300 60  0001 C CNN "Available at"
 	1    7600 5300
 	0    -1   -1   0   
 $EndComp
@@ -240,6 +256,8 @@ F 1 "0.1u" H 4810 4620 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4800 4700 50  0001 C CNN
 F 3 "" H 4800 4700 50  0000 C CNN
 F 4 "50V" H 4780 4620 50  0000 R CNN "Voltage"
+F 5 "GRM188F11H104ZA01" H 4800 4700 60  0001 C CNN "Model"
+F 6 "http://akizukidenshi.com/catalog/g/gP-04940/" H 4800 4700 60  0001 C CNN "Available at"
 	1    4800 4700
 	-1   0    0    1   
 $EndComp
@@ -253,7 +271,7 @@ F 2 "wshito_FootPrints:UCB1H101MNL1GS_HandSoldering" H 6900 3100 50  0001 C CNN
 F 3 "" H 6900 3100 50  0000 C CNN
 F 4 "50V" H 6890 3020 50  0000 R CNN "Voltage"
 F 5 "Nichicon UCB1H101MNL1GS" H 6900 3100 60  0001 C CNN "Model"
-F 6 "RS 280yen for 10." H 6900 3100 60  0001 C CNN "Available at"
+F 6 "http://jp.rs-online.com/web/p/products/0269329/" H 6900 3100 60  0001 C CNN "Available at"
 	1    6900 3100
 	0    -1   -1   0   
 $EndComp
@@ -266,6 +284,8 @@ F 1 "0.22u" H 6910 3270 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6900 3350 50  0001 C CNN
 F 3 "" H 6900 3350 50  0000 C CNN
 F 4 "50V" H 6880 3270 50  0000 R CNN "Voltage"
+F 5 "GRM188F11H224ZA01" H 6900 3350 60  0001 C CNN "Model"
+F 6 "http://akizukidenshi.com/catalog/g/gP-05624/" H 6900 3350 60  0001 C CNN "Available at"
 	1    6900 3350
 	0    1    1    0   
 $EndComp
@@ -291,6 +311,8 @@ F 1 "0.22u" H 5110 4870 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5100 4950 50  0001 C CNN
 F 3 "" H 5100 4950 50  0000 C CNN
 F 4 "25V" H 5080 4870 50  0000 R CNN "Voltage"
+F 5 "GRM188F11H224ZA01" H 5100 4950 60  0001 C CNN "Model"
+F 6 "http://akizukidenshi.com/catalog/g/gP-05624/" H 5100 4950 60  0001 C CNN "Available at"
 	1    5100 4950
 	0    1    1    0   
 $EndComp
@@ -360,6 +382,8 @@ F 0 "U1" H 6800 3750 60  0000 C CNN
 F 1 "A3982" H 6400 4350 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-24W_7.5x15.4mm_Pitch1.27mm" H 6500 4550 60  0001 C CNN
 F 3 "" H 6500 4550 60  0001 C CNN
+F 4 "A3982SLBTR-T" H 6400 4500 60  0001 C CNN "Model"
+F 5 "http://akizukidenshi.com/catalog/g/gI-06739/" H 6400 4500 60  0001 C CNN "Available at"
 	1    6400 4500
 	1    0    0    -1  
 $EndComp
