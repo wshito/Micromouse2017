@@ -45,7 +45,7 @@ However, the BOD lists the URL for 30kΩ because I could not find the one with 2
 - `a3982slb_board-cache.lib`: KiCAD cache for parts library.
 - `output`: KiCADプロジェクトから生成したファイルを格納．
    - `a3982slb_board.csv`: パーツの入手先URLを記したBOD．
-   - `a3982slb_board_Gerber.zip`: [Elecrow](https:www.elecrow.com) か [PCBGOGO](https://www.pcbgogo.jp) 用のガーバーファイルのアーカイブ.
+   - `a3982slb_board_Gerber.zip`: [Elecrow](https://www.elecrow.com) か [PCBGOGO](https://www.pcbgogo.jp) 用のガーバーファイルのアーカイブ.
    - `board_layout.pdf`: 基盤レイアウト．
 
 ### BOD について
