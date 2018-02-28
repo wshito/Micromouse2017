@@ -2,23 +2,23 @@
 
 ## The Characteristics of a3982slb stepping motor driver
 
-* The bipolar stepper motors in full- and half-step modes.
-* No power-on or off sequencing is required.
-* Automatically chooses the decay mode from SLOW DECAY and MIXED DECAY.
-* Internal UVLO and thermal shutdown circuitry.
-* The output drive capacity of up to 35V and ±2A.
-* The logic voltage accepts between 3.0V and 5.5V.
+- The bipolar stepper motors in full- and half-step modes.
+- No power-on or off sequencing is required.
+- Automatically chooses the decay mode from SLOW DECAY and MIXED DECAY.
+- Internal UVLO and thermal shutdown circuitry.
+- The output drive capacity of up to 35V and ±2A.
+- The logic voltage accepts between 3.0V and 5.5V.
 
 ## Files
 
-* `a3982slb_board.pro`: The main project file for KiCAD.
-* `a3982slb_board.sch`: KiCAD schematic file.
-* `a3982slb_board.kicad_pcb`: KiCAD pcb file.
-* `a3982slb_board-cache.lib`: KiCAD cache for parts library.
-* `output`: Contains the bi-products from the KiCAD project.
-** `a3982slb_board.csv`: Bill of Devices which includes the URLs of shops.
-** `a3982slb_board_Gerber.zip`: Gerber files for Elecrow (www.elecrow.com) or PCBGOGO (www.pcbgogo.com).
-** `board_layout.pdf`
+- `a3982slb_board.pro`: The main project file for KiCAD.
+- `a3982slb_board.sch`: KiCAD schematic file.
+- `a3982slb_board.kicad_pcb`: KiCAD pcb file.
+- `a3982slb_board-cache.lib`: KiCAD cache for parts library.
+- `output`: Contains biproducts from the KiCAD project.
+   - `a3982slb_board.csv`: Bill of Devices which includes the URLs of shops.
+   - `a3982slb_board_Gerber.zip`: Gerber files for [Elecrow][http:www.elecrow.com] or [PCBGOGO][http://www.pcbgogo.com].
+   - `board_layout.pdf`
 
 
 ## About the Bill of Devices
@@ -30,12 +30,12 @@ However, the BOD lists the URL for 30kΩ because I could not find the one with 2
 
 ### a3982slb ステッピングモーター・ドライバの特徴
 
-* バイポーラ駆動方式のステッピングモーター・ドライバ．
-* ロジック側電源とモーター側電源の ON・OFF シーケンスに制約がない．どちらから先に電源を入れても，また，OFFにしても問題ない．
-* ステップ信号を入力するだけで，チョッピング制御の電流減衰モードが SLOW DECAY と MIXED DECAY から自動選択される．
-* 電源電圧低下検出保護機能（UVLO）と熱保護機能（TSD）を搭載．
-* 出力は 35V，±2.0A まで対応．
-* ロジック電源は 3.0 〜 5.5V 対応．
+- バイポーラ駆動方式のステッピングモーター・ドライバ．
+- ロジック側電源とモーター側電源の ON・OFF シーケンスに制約がない．どちらから先に電源を入れても，また，OFFにしても問題ない．
+- ステップ信号を入力するだけで，チョッピング制御の電流減衰モードが SLOW DECAY と MIXED DECAY から自動選択される．
+- 電源電圧低下検出保護機能（UVLO）と熱保護機能（TSD）を搭載．
+- 出力は 35V，±2.0A まで対応．
+- ロジック電源は 3.0 〜 5.5V 対応．
 
 ### BOD について
 
@@ -43,8 +43,8 @@ However, the BOD lists the URL for 30kΩ because I could not find the one with 2
 
 ### 使い方
 
-* Logic 電源を 3.3V に設定し，可変抵抗は 0Ω 側最小値にセット．
-* 負荷側電源を 9V 〜 11.1V に設定．
-* Vbb_Load 側にあるGND は Logic 電源用の GND．Vbb_Logic 側にある GND がモーター電源用 GND．サイドが逆になるので注意．両者は基盤上で1点アースを取っている．
+- Logic 電源を 3.3V に設定し，可変抵抗は 0Ω 側最小値にセット．
+- 負荷側電源を 9V 〜 11.1V に設定．
+- Vbb_Load 側にあるGND は Logic 電源用の GND．Vbb_Logic 側にある GND がモーター電源用 GND．サイドが逆になるので注意．両者は基盤上で1点アースを取っている．
  
 
