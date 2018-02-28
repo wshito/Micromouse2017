@@ -17,7 +17,7 @@
 - `a3982slb_board-cache.lib`: KiCAD cache for parts library.
 - `output`: Contains biproducts from the KiCAD project.
    - `a3982slb_board.csv`: Bill of Devices which includes the URLs of shops.
-   - `a3982slb_board_Gerber.zip`: Gerber files for [Elecrow](https:www.elecrow.com) or [PCBGOGO](https://www.pcbgogo.com).
+   - `a3982slb_board_Gerber.zip`: Gerber files for [Elecrow](https://www.elecrow.com) or [PCBGOGO](https://www.pcbgogo.com).
    - `board_layout.pdf`
 
 
