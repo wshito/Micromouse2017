@@ -17,7 +17,7 @@
 - `a3982slb_board-cache.lib`: KiCAD cache for parts library.
 - `output`: Contains biproducts from the KiCAD project.
    - `a3982slb_board.csv`: Bill of Devices which includes the URLs of shops.
-   - `a3982slb_board_Gerber.zip`: Gerber files for [Elecrow][http:www.elecrow.com] or [PCBGOGO][http://www.pcbgogo.com].
+   - `a3982slb_board_Gerber.zip`: Gerber files for [Elecrow](https:www.elecrow.com) or [PCBGOGO](https://www.pcbgogo.com).
    - `board_layout.pdf`
 
 
@@ -36,6 +36,17 @@ However, the BOD lists the URL for 30kΩ because I could not find the one with 2
 - 電源電圧低下検出保護機能（UVLO）と熱保護機能（TSD）を搭載．
 - 出力は 35V，±2.0A まで対応．
 - ロジック電源は 3.0 〜 5.5V 対応．
+
+## Files
+
+- `a3982slb_board.pro`: KiCAD用プロジェクトファイル．
+- `a3982slb_board.sch`: KiCAD用回路図ファイル．
+- `a3982slb_board.kicad_pcb`: KiCAD用基盤レイアウトファイル．
+- `a3982slb_board-cache.lib`: KiCAD cache for parts library.
+- `output`: KiCADプロジェクトから生成したファイルを格納．
+   - `a3982slb_board.csv`: パーツの入手先URLを記したBOD．
+   - `a3982slb_board_Gerber.zip`: [Elecrow](https:www.elecrow.com) か [PCBGOGO](https://www.pcbgogo.jp) 用のガーバーファイルのアーカイブ.
+   - `board_layout.pdf`: 基盤レイアウト．
 
 ### BOD について
 
