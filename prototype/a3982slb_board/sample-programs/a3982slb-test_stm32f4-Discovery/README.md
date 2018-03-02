@@ -1,5 +1,12 @@
 # Test Program for A3982slb Stepping Motor Driver Evaluation Board
 
+---
+***This is still work in progress!***
+---
+
+This is an Eclipse project of STM32F4-Discovery board to test the A3982SLB stepping motor driver evaluation board designed [here](https://github.com/wshito/Micromouse2017/tree/master/prototype/stm32f401rct6_board/kicad/stm32f401rct6_board).
+
+
 
 ## STM32F4 Clock settings
 
